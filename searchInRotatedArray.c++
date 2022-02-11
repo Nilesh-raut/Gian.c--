@@ -59,7 +59,6 @@ int searchInArray(int arr[],int size,int key){
 
     // printArray(arr,size);
     // int pivot=findPivotInArray(arr,size);
-    cout<<size<<endl;
     cout<<findPivotInArray(arr,size);
     // if(key<arr[pivot-1]){
     //     return binarySearch(arr,size,key,0,pivot-1);
@@ -76,7 +75,7 @@ int main()
 {
     int size =5;
     int arr[size]={7,9,1,2,3};
-    int key =2;
+    // int key =2;
     cout<<searchInArray(arr,size,key);
     return 0;
 }
