@@ -76,6 +76,6 @@ int main()
     int size =5;
     int arr[size]={7,9,1,2,3};
     int key =2;
-    cout<<searchInArray(arr,size,key);
+    searchInArray(arr,size,key);
     return 0;
 }
